@@ -15,6 +15,6 @@ const quote = document.querySelector('h1');
 button.addEventListener('click',()=>{
     const index = Math.floor(Math.random()*8);
 
-    quote.textContent = quotes[index];
-
+    quote.textContent = quotes[index]; 
+    
 })
