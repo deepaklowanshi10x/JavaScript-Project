@@ -9,7 +9,7 @@ form.addEventListener('submit',(e)=>{
     const l1 = Boy.value.length;
     const l2 = Girl.value.length;
 
-    const result = Math.pow(l1+l2,3)%101
+    const result = Math.pow(l1+l2,3)%101 
 
     document.querySelector('h2').textContent = `Result: ${result}%`;
     form.reset();
